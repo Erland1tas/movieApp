@@ -1,0 +1,22 @@
+.genres-glide {
+  margin-top: 50px;
+}
+.genres {
+  height: 170px;
+  .glide__slide {
+    position: relative;
+    border-radius: 7px;
+    overflow: hidden;
+    .cover {
+      @extend %cover;
+    }
+    p {
+      position: absolute;
+      color: $alice-blue;
+      z-index: 10;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

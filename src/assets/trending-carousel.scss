@@ -1,0 +1,35 @@
+.trending-section {
+  width: 100%;
+  background-color: $alice-blue;
+  margin: 50px 0;
+  padding: 20px 0 30px;
+  .trending-header {
+    margin: 0 0 15px 15px;
+    position: relative;
+  }
+  .trending-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -15px;
+    display: block;
+    background-color: $mint-color;
+    width: 6px;
+    height: 24px;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+  .movie {
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 4px 0;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    .movie-desc {
+      padding: 10px;
+      a {
+        // Because of glide.js, I have to set it to normal, otherwise wont wrap.
+        white-space: normal;
+      }
+    }
+  }
+}

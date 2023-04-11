@@ -1,0 +1,19 @@
+.glide-upcoming {
+  margin-top: 10px;
+}
+.upcoming {
+  height: 400px;
+  .glide__slide {
+    position: relative;
+    .cover {
+      @extend %cover;
+    }
+    h2 {
+      position: absolute;
+      bottom: 80px;
+      left: 150px;
+      font-size: 40px;
+      color: $alice-blue;
+    }
+  }
+}
