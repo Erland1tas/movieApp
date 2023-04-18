@@ -59,8 +59,9 @@ export default {
   mounted() {
     new Glide('.genres-glide', {
       type: 'carousel',
-      gap: 15,
-      perView: 4
+      gap: 20,
+      perView: 5,
+      peek: 10
     }).mount()
   },
   components: { ContainerSlot }

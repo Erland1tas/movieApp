@@ -105,7 +105,7 @@ export default {
       type: 'carousel',
       gap: 20,
       perView: 5,
-      peek: 20
+      peek: 10
     }).mount()
   }
 }
