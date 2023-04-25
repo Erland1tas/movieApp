@@ -10,6 +10,10 @@
     .cover {
       @extend %cover;
     }
+    img {
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+    }
     p {
       position: absolute;
       color: $alice-blue;

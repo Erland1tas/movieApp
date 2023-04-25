@@ -1,5 +1,5 @@
 <template>
-  <ContainerSlot>
+  <container-slot>
     <section class="upcoming-section">
       <div class="selected-movie"></div>
 
@@ -46,13 +46,11 @@
         </div>
       </div>
     </section>
-  </ContainerSlot>
+  </container-slot>
 </template>
 <script>
 import Glide from '@glidejs/glide'
-import ContainerSlot from '../slots/ContainerSlot.vue'
 export default {
-  components: { ContainerSlot },
   mounted() {
     new Glide('.glide-upcoming', {
       type: 'carousel',

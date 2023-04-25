@@ -1,5 +1,5 @@
 <template>
-  <ContainerSlot>
+  <container-slot>
     <section class="genres-glide">
       <div class="glide__track" data-glide-el="track">
         <div class="glide__slides genres">
@@ -50,11 +50,10 @@
         </div>
       </div>
     </section>
-  </ContainerSlot>
+  </container-slot>
 </template>
 <script>
 import Glide from '@glidejs/glide'
-import ContainerSlot from '../slots/ContainerSlot.vue'
 export default {
   mounted() {
     new Glide('.genres-glide', {
@@ -63,7 +62,6 @@ export default {
       perView: 5,
       peek: 10
     }).mount()
-  },
-  components: { ContainerSlot }
+  }
 }
 </script>

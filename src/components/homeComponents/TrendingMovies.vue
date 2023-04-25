@@ -1,6 +1,6 @@
 <template>
   <section class="trending-section">
-    <ContainerSlot>
+    <container-slot>
       <h3 class="trending-header">Trending Movies</h3>
       <section class="trending-glide">
         <div class="glide__track" data-glide-el="track">
@@ -93,7 +93,7 @@
           </div>
         </div>
       </section>
-    </ContainerSlot>
+    </container-slot>
   </section>
 </template>
 
